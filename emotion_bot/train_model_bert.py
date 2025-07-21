@@ -1,5 +1,8 @@
 
 
+
+
+
 import pandas as pd
 import joblib
 from sklearn.linear_model import LogisticRegression
@@ -31,4 +34,4 @@ y_pred = clf.predict(X_test)
 print(classification_report(y_test, y_pred))
 
 joblib.dump(clf, "model.pkl")
-print("Model saved to model.pkl")
+
