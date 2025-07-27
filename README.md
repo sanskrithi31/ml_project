@@ -55,3 +55,12 @@ A lightweight, privacy-first Streamlit web app for emotion detection, journaling
   - 🕒 Timestamp
 - Entries are saved in `journal_log.csv` and displayed in expandable views.
 
+#Output
+
+### 🔐 Authentication
+
+Users can sign up and log in securely. Passwords are hashed using SHA256 and stored in `users.json`.
+
+![Authentication Screenshot](assets/Authentication1)
+
+
