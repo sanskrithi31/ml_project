@@ -61,5 +61,5 @@ A lightweight, privacy-first Streamlit web app for emotion detection, journaling
 
 Users can sign up and log in securely. Passwords are hashed using SHA256 and stored in `users.json`.
 
-![Authentication Screenshot](assets/Authentication_1.png)
+![Authentication Screenshot](emotion_bot/assets/Authentication_1.png)
 
