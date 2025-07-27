@@ -40,7 +40,7 @@ def load_users():
     return {}
 
 def save_users(users):
-    with open(USERS_FILE, "w") as f:
+    with open(USERS_FILE, "w") as f:        
         json.dump(users, f)
 
 def hash_password(password):
@@ -239,7 +239,7 @@ if st.session_state.authenticated:
     user_input = st.text_area("🗣️ How are you feeling today?")
 
     if st.button("Analyze Emotion"):
-        if user_input.strip():
+        if user_input.strip():  
             embedding = embedder.encode([user_input])
             pred = model.predict(embedding)[0]
             st.success(f"🧠 Detected Emotion: **{pred}**")
