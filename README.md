@@ -69,6 +69,6 @@ Users can sign up and log in securely. Passwords are hashed using SHA256 and sto
 
 Uses `sentence-transformers/all-MiniLM-L6-v2` to classify text into 6 core emotions using Logistic Regression.
 
-![Emotion Detection Screenshot](emotion_bot/assets/emotion_detection.png)
+![Emotion Detection Screenshot](emotion_bot/assets/Emotion Detection.png)
 
 
