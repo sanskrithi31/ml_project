@@ -60,7 +60,7 @@ A lightweight, privacy-first Streamlit web app for emotion detection, journaling
 
 Users can sign up and log in securely. Passwords are hashed using SHA256 and stored in `users.json`.
 
-![Authentication Screenshot](assets/Authentication_1.png) 
+![Authentication](assets/Authentication_1.png) 
 ![](assets/Authentication_2.png)
 
 
@@ -68,7 +68,7 @@ Users can sign up and log in securely. Passwords are hashed using SHA256 and sto
 
 Uses `sentence-transformers/all-MiniLM-L6-v2` to classify text into 6 core emotions using Logistic Regression.
 
-![Emotion Detection Screenshot](assets/emotion_detection.png)
+![Emotion Detection](assets/emotion_detection.png)
 
 
 ### 📈 Mood Visualization
@@ -85,5 +85,12 @@ Visualizes past emotions stored in `mood_log.csv`:
 ![Line Graph](assets/Emotion_Timeline.png)
 ![Calendar Heatmap](assets/Mood_Timeline.png)
 
+
+### 📝 Journaling
+
+Users can write, save, and view personal journal entries stored in `journal_log.csv`.
+
+![Journal Entry](assets/Journal_Entry.png)
+![Journal View](assets/Journal_View.png)
 
 
