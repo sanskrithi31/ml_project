@@ -71,5 +71,19 @@ Uses `sentence-transformers/all-MiniLM-L6-v2` to classify text into 6 core emoti
 ![Emotion Detection Screenshot](assets/emotion_detection.png)
 
 
+### 📈 Mood Visualization
+
+Visualizes past emotions stored in `mood_log.csv`:
+
+- Pie Chart
+- Bar Graph
+- Line Graph
+- Calendar Heatmap
+
+![Pie Chart](assets/Emotion_Distribution_Pie_Chart.png)
+![Bar Chart](assets/Emotion_Frequency_Bar_Graph.png)
+![Line Graph](assets/Emotion_Timeline.png)
+![Calendar Heatmap](assets/Mood_Timeline.png)
+
 
 
