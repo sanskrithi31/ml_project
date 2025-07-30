@@ -55,28 +55,12 @@ A lightweight, privacy-first Streamlit web app for emotion detection, journaling
   - 🕒 Timestamp
 - Entries are saved in `journal_log.csv` and displayed in expandable views.
 
-<<<<<<< HEAD
 #Output
-=======
-# Output
->>>>>>> 277abca489ee3d2f9dc398ef08d116a178057590
 
 ### 🔐 Authentication
 
 Users can sign up and log in securely. Passwords are hashed using SHA256 and stored in `users.json`.
 
-<<<<<<< HEAD
 ![Authentication Screenshot](emotion_bot\assets\Authentication_1.png)
-=======
-![Authentication Screenshot](emotion_bot/assets/Authentication_1.png) 
-![](emotion_bot/assets/Authentication_2.png)
-
-
-### 🎯 Emotion Detection
-
-Uses `sentence-transformers/all-MiniLM-L6-v2` to classify text into 6 core emotions using Logistic Regression.
-
-![Emotion Detection Screenshot](emotion_bot/assets/Emotion Detection.png)
->>>>>>> 277abca489ee3d2f9dc398ef08d116a178057590
 
 
